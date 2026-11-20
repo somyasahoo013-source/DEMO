@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#190b2b">
+<title>Happy Birthday, Gwen — My Queen 💜</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600;700&display=swap');
+:root{--lav:#d9b8ff;--pink:#ffb8df;--ink:#190b2b;--glass:rgba(255,255,255,.10)}
+*{box-sizing:border-box}
+body{margin:0;min-height:100svh;overflow-x:hidden;color:#fff;font-family:'DM Sans',sans-serif;background:radial-gradient(ellipse at 15% 15%,#643c91 0%,transparent 42%),radial-gradient(ellipse at 85% 85%,#7b326f 0%,transparent 38%),linear-gradient(145deg,#13091f,#28113e 55%,#381749);display:flex;align-items:center;justify-content:center;padding:36px 16px}
+body:before{content:'';position:fixed;inset:0;pointer-events:none;opacity:.18;background-image:radial-gradient(#fff 1px,transparent 1px);background-size:44px 44px}
+.wrap{width:min(100%,900px);text-align:center;position:relative;z-index:2}
+.kicker{letter-spacing:.22em;text-transform:uppercase;font-size:.75rem;color:var(--lav);margin-bottom:12px}
+h1{font-family:'Playfair Display',serif;font-size:clamp(2rem,5vw,3.5rem);font-weight:600;margin:0 0 12px;text-shadow:0 4px 28px #e0a6ff40}
+.subtitle{color:#eadcf7;margin:0 auto 30px;max-width:540px;line-height:1.7}
+.card{width:min(390px,88vw);height:530px;margin:0 auto 24px;perspective:1200px;cursor:pointer;outline:none}
+.inner{width:100%;height:100%;position:relative;transform-style:preserve-3d;transition:transform .85s cubic-bezier(.2,.7,.2,1)}
+.card.flipped .inner{transform:rotateY(180deg)}
+.front,.back{position:absolute;inset:0;backface-visibility:hidden;border-radius:24px;overflow:hidden;border:1px solid #ffffff60;box-shadow:0 24px 80px #0006,0 0 35px #d69aff25}
+.front{background:#301a45}
+.front img{width:100%;height:100%;object-fit:cover;display:block}
+.photo-shade{position:absolute;inset:0;background:linear-gradient(0deg,#1c082eaa,transparent 55%)}
+.front-label{position:absolute;bottom:25px;left:18px;right:18px;font-family:'Playfair Display',serif;font-size:1.45rem;text-shadow:0 3px 14px #000}
+.back{transform:rotateY(180deg);background:linear-gradient(145deg,#fff7ff,#f2dfff);color:#45245c;padding:28px 25px;display:flex;flex-direction:column;justify-content:center;text-align:center}
+.back h2{font-family:'Playfair Display',serif;font-size:1.8rem;margin:0 0 18px;color:#71339b}
+.back p{font-size:1rem;line-height:1.75;margin:10px 0;color:#59396a}
+.signature{margin-top:14px;font-family:'Playfair Display',serif;font-size:1.25rem;color:#8a3db4}
+.hint{font-size:.85rem;color:#d9c5ee;margin-bottom:20px}
+.controls{display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+button{font:inherit;color:white;background:linear-gradient(135deg,#a75bd5,#e06bb4);border:1px solid #ffffff55;border-radius:999px;padding:13px 22px;cursor:pointer;box-shadow:0 10px 30px #0003;transition:transform .2s,filter .2s}
+button:hover{transform:translateY(-2px);filter:brightness(1.1)}
+button:focus-visible{outline:3px solid #fff;outline-offset:4px}
+.music-status{margin-top:12px;color:#e9d5fa;font-size:.8rem;min-height:1.2em}
+.sparkle,.heart{position:fixed;pointer-events:none;z-index:1}
+.sparkle{width:3px;height:3px;border-radius:50%;background:#fff;box-shadow:0 0 9px 2px #fff8;animation:twinkle 3s ease-in-out infinite alternate}
+.heart{font-size:14px;color:#ffb9e4;animation:rise 9s linear infinite;opacity:.55}
+@keyframes twinkle{from{opacity:.15;transform:scale(.7)}to{opacity:.95;transform:scale(1.6)}}
+@keyframes rise{0%{transform:translateY(20vh) rotate(0deg);opacity:0}15%{opacity:.55}100%{transform:translateY(-110vh) rotate(35deg);opacity:0}}
+@media(max-width:480px){body{padding:30px 12px}.card{height:min(530px,125vw)}.back{padding:20px 17px}.back p{font-size:.92rem}.back h2{font-size:1.55rem}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;transition-duration:.01ms!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="kicker">A little universe made just for you</div>
+  <h1>Happy Birthday, SUBU💜</h1>
+  <p class="subtitle">Today, the universe has one extra reason to sparkle. Tap the card to discover your little birthday letter.</p>
+
+  <div class="card" id="birthdayCard" role="button" tabindex="0" aria-label="Flip the birthday card">
+    <div class="inner">
+      <div class="front">
+        <img src="IMAGES/IMAGE1.jpeg" alt="A special photo of my love" onerror="this.style.display='none';this.parentElement.style.background='linear-gradient(135deg,#6c338b,#d477bd)'">
+        <div class="photo-shade"></div>
+        <div class="front-label">For my favourite person ✨</div>
+      </div>
+      <div class="back">
+        <h2>Happy Birthday, My loudu 💜</h2>
+        <p>jhantu, MO gendu, <b>MO BALA...</b><br>PRUTHIBI UPARE BOJHA.</p>
+        <p>HAPPY BIRTHDAY.</p>
+        <p>You are the most UGLIEST part of my world</p>
+        <p><b>KADALI GACHA KU TADA, MAIKINA KU MADA.</b></p>
+        <div class="signature">— From BILLA CHAUDHARY 😎</div>
+      </div>
+    </div>
+  </div>
+  <div class="hint">♡ Tap or click the card to flip it ♡</div>
+  <div class="controls">
+    <button id="playButton">♫ Play our song</button>
+    <button id="flipButton">💌 Flip the letter</button>
+  </div>
+  <div class="music-status" id="musicStatus">Your song is waiting for you to press play.</div>
+</div>
+
+<!-- Local music file: place your MP3 at music/birthday-song.mp3 -->
+<audio id="localMusic" src="music/birthday-song.mpeg" preload="metadata" loop></audio>
+<script>
+const playButton = document.getElementById('playButton');
+const musicStatus = document.getElementById('musicStatus');
+const localMusic = document.getElementById('localMusic');
+playButton.addEventListener('click', async () => {
+  if (localMusic.paused) {
+    try {
+      await localMusic.play();
+      playButton.textContent = '❚❚ Pause our song';
+      musicStatus.textContent = 'Our song is playing 💗';
+    } catch (error) {
+      musicStatus.textContent = 'Could not play the song. Check that music/birthday-song.mp3 exists.';
+    }
+  } else {
+    localMusic.pause();
+    playButton.textContent = '♫ Play our song';
+    musicStatus.textContent = 'Song paused. Press play whenever you like.';
+  }
+});
+localMusic.addEventListener('ended', () => {
+  playButton.textContent = '♫ Play our song';
+});
+const card = document.getElementById('birthdayCard');
+function flipCard(){card.classList.toggle('flipped')}
+card.addEventListener('click',flipCard);
+card.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();flipCard()}});
+document.getElementById('flipButton').addEventListener('click',flipCard);
+// Gentle floating sparkles and hearts
+for(let i=0;i<42;i++){const s=document.createElement('span');s.className='sparkle';s.style.left=Math.random()*100+'vw';s.style.top=Math.random()*100+'vh';s.style.animationDelay=Math.random()*3+'s';s.style.animationDuration=(2+Math.random()*3)+'s';document.body.appendChild(s)}
+for(let i=0;i<16;i++){const h=document.createElement('span');h.className='heart';h.textContent='♥';h.style.left=Math.random()*100+'vw';h.style.bottom='-30px';h.style.animationDelay=Math.random()*9+'s';h.style.animationDuration=(7+Math.random()*5)+'s';document.body.appendChild(h)}
+</script>
+</body>
+</html>
